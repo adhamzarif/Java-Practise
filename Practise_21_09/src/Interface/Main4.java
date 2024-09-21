@@ -1,0 +1,23 @@
+package Interface;
+
+interface Aa
+{
+    int x=10;
+}
+interface B
+{
+    int x=100;
+}
+class Hello implements Aa,B
+{
+    public static void main(String[] args)
+    {
+        /* reference to x is ambiguous both variables are x
+         * so we are using interface name to resolve the
+         * variable
+         */
+//        System.out.println(x);
+        System.out.println(Aa.x);
+        System.out.println(B.x);
+    }
+}
