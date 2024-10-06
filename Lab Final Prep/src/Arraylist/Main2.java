@@ -1,4 +1,4 @@
-package ArrayList;
+package Arraylist;
 
 public class Main2
 {
